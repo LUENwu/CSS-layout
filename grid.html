@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        outline: 1px solid red;
+        grid-gap: 12px;
+        max-width: 800px;
+        margin: 0 auto;
+        grid-gap: 12px;
+      }
+      .container > div {
+        outline: 1px solid blue;
+      }
+      .image {
+        width: 191px;
+        height: 191px;
+        background: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+    </div>
+  </body>
+</html>
